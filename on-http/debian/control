@@ -1,0 +1,16 @@
+Source: on-http
+Section: http
+Priority: optional
+Maintainer: Joe Heck <joseph.heck@emc.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: on-http
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ nodejs,
+ nodejs-legacy,
+ npm,
+ mongodb
+Description: on-http
+ monorail http engine

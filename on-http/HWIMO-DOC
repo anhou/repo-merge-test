@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Copyright 2015, EMC, Inc.
+
+set -e
+set -x
+
+rm -rf node_modules
+npm install
+npm run apidoc
+
